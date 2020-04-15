@@ -18,10 +18,10 @@ var app = new Vue({
       // verificar se ainda ha perguntas, se nao mostrar tela final
     },
     trocarIndice: function () {
-      while (this.indices.includes(this.indice)) { // corrigir primeira pergunta
+      this.salvaIndice(this.indice);
+      while (this.indices.includes(this.indice)) {
         this.indice = Math.floor(Math.random() * 29);
       }
-      this.salvaIndice(this.indice);
     },
     enviarResposta: function () {
       if (Number(this.indiceResposta) != this.pergunta["opc"]) {
@@ -29,7 +29,7 @@ var app = new Vue({
         this.vidas = this.vidas - 1;
       }
       this.trocarIndice();
-      this.totalEstrelas += this.estrelas; 
+      this.totalEstrelas += this.estrelas;
     },
     pularPergunta: function () {
       this.trocarIndice();
@@ -62,26 +62,26 @@ var app = new Vue({
   computed: {
     estrelas: function () {
       let estrelas = 0;
-      if (this.tempo/this.tempoBase >= 0.66) {
+      if (this.tempo / this.tempoBase >= 0.66) {
         estrelas = 3;
-      } else if (this.tempo/this.tempoBase >= 0.33) {
+      } else if (this.tempo / this.tempoBase >= 0.33) {
         estrelas = 2;
-      } else if (this.tempo/this.tempoBase > 0) {
+      } else if (this.tempo / this.tempoBase > 0) {
         estrelas = 1;
       }
       return estrelas;
     },
     pergunta: function () {
       let pergunta = {
-        "pergunta":"Carregando perguntas, por favor aguarde!",
-        "op1": "Carregando",
-        "op2": "Carregando",
-        "op3": "Carregando",
-        "opc": 0,
+        pergunta: "Carregando perguntas, por favor aguarde!",
+        op1: "Carregando",
+        op2: "Carregando",
+        op3: "Carregando",
+        opc: 0,
       };
 
-      this.perguntas.length > 0 && [pergunta = this.perguntas[this.indice]] 
-      switch (pergunta['dificuldade']) {
+      this.perguntas.length > 0 && [(pergunta = this.perguntas[this.indice])];
+      switch (pergunta["dificuldade"]) {
         case 1:
           this.tempo = 10;
           this.tempoBase = 10;
@@ -97,7 +97,7 @@ var app = new Vue({
         default:
           this.tempo = 15;
           this.tempoBase = 15;
-        break;
+          break;
       }
 
       return pergunta;
