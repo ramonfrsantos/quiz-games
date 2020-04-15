@@ -1,205 +1,234 @@
 [
- {
-   "pergunta": "Qual o maior desejo de Gohan em Dragon Ball Z?",
-   "op1": "Ser um grande lutador, como seu pai",
-   "op2": "Ser um historiador de sucesso",
-   "op3": "Ser rico e construir uma família",
-   "opc": 2
- },
- {
-   "pergunta": "Qual o Berserker enfrentado por Artoria Pendragon em Fate/Zero?",
-   "op1": "Lancelot",
-   "op2": "Hércules",
-   "op3": "Spartacus",
-   "opc": 1
- },
- {
-   "pergunta": "Em The King of Fighters, qual o clã que mudou de nome para caçar os Kusanagi?",
-   "op1": "Yata",
-   "op2": "Yasakani",
-   "op3": "Sakazaki",
-   "opc": 2
- },
- {
-   "pergunta": "Em Bleach, Ichigo Kurosaki apenas virou Ceifeiro de Almas por causa que ele sem querer Roubou os poderes de...",
-   "op1": "Renji",
-   "op2": "Rukia",
-   "op3": "Capitão Toshiro",
-   "opc": 2
- },
- {
-   "pergunta": "Naruto habita o espírito de qual Bijuu dentro de seu corpo?",
-   "op1": "Hachibi",
-   "op2": "Shukaku",
-   "op3": "Kyuubi",
-   "opc": 3
- },
- {
-   "pergunta": "São personagens de Yu-Yu Hakusho...",
-   "op1": "Yusuke, Kazuma e Kurama",
-   "op2": "Chi-chi, Chaos e Janemba",
-   "op3": "Ichigo, Rukia e Uryu",
-   "opc": 1
- },
- {
-   "pergunta": "Kempachi Zaraki",
-   "op1": "Divisão 9",
-   "op2": "Divisão 10",
-   "op3": "Divisão 11",
-   "opc": 3
- },
- {
-   "pergunta": "Em Death Note, Light após perceber que o Detetive L o investigava, tentou descobrir sua verdadeira identidade para...",
-   "op1": "Sequestrá-lo",
-   "op2": "Prendê-lo",
-   "op3": "Matá-lo",
-   "opc": 3
- },
- {
-   "pergunta": "Qual a relação entre Misa Amane e Light, em Death Note?",
-   "op1": "Irmãos",
-   "op2": "Namorados",
-   "op3": "Mãe e filho",
-   "opc": 2
- },
- {
-   "pergunta": "Quem é o criador de Naruto?",
-   "op1": "Tsugumi Ohba",
-   "op2": "Akira Toriyama",
-   "op3": "Massashi Kishimoto",
-   "opc": 3
- },
- {
-   "pergunta": "Qual a posição de Endo, em Super Onze?",
-   "op1": "Goleiro",
-   "op2": "Meio campo",
-   "op3": "Atacante",
-   "opc": 1
- },
- {
-   "pergunta": "Qual o nome do avô de Endo, em Super Onze?",
-   "op1": "Tobi",
-   "op2": "Daisuke",
-   "op3": "Hashirama",
-   "opc": 2
- },
- {
-   "pergunta": "Qual a relação entre Kirigaya e Asuna, em Sword Art Online?",
-   "op1": "Primos",
-   "op2": "Irmãos",
-   "op3": "Namorados",
-   "opc": 3
- },
- {
-   "pergunta": "Qual o nome da \"Filha Virtual\" de Kirito e Asuna, em Sword Art Online?",
-   "op1": "Rin",
-   "op2": "Boruto",
-   "op3": "Yui",
-   "opc": 3
- },
- {
-   "pergunta": "Quem derrotou o Devimon em Digimon?",
-   "op1": "Angemon",
-   "op2": "Leomon",
-   "op3": "Greymon",
-   "opc": 1
- },
- {
-   "pergunta": "Qual é a evolução Ultimate do Ankylomon, em Digimon?",
-   "op1": "Vikemon",
-   "op2": "Clavis Angemon",
-   "op3": "Slash Angemon",
-   "opc": 1
- },
- {
-   "pergunta": "Qual é o comandante/criador da Dats, em Digimon?",
-   "op1": "Satsuma",
-   "op2": "Kurata",
-   "op3": "Hiroshi",
-   "opc": 3
- },
- {
-   "pergunta": "Por que em Digimon Xros Wars não existe evolução?",
-   "op1": "Não foi explicado no anime",
-   "op2": "Porque Baguramon mudou a realidade do mundo digital",
-   "op3": "Porque é um universo alternativo de Digimon",
-   "opc": 2
- },
- {
-   "pergunta": "Em que ano os jogos Super Smash Bros for Wii U/3DS foram lançados?",
-   "op1": "2013",
-   "op2": "2014",
-   "op3": "2015",
-   "opc": 2
- },
- {
-   "pergunta": "Qual é o nome do novo presidente da Nintendo?",
-   "op1": "Tsunami Kalashima",
-   "op2": "Satoru Iwata",
-   "op3": "Tatsumi Kimishima",
-   "opc": 3
- },
- {
-   "pergunta": "No jogo Kid Icarus Uprising, a personagem Medusa, Deusa do Submundo foi revivida por quem?",
-   "op1": "Plutena",
-   "op2": "Viridi",
-   "op3": "Hades",
-   "opc": 3
- },
- {
-   "pergunta": "No jogo Fire Emblem: Awakening, qual é o nome do(a) filho(a) de Robin?",
-   "op1": "Lucina",
-   "op2": "Morgan",
-   "op3": "Lyana",
-   "opc": 2
- },
- {
-   "pergunta": "No novo jogo da série Mario e Sonic nas Olimpíadas, quantos personagens o jogo possui?",
-   "op1": "20",
-   "op2": "40",
-   "op3": "80",
-   "opc": 2
- },
- {
-   "pergunta": "Quais franquias da Nintendo completaram 30 anos em 2016?",
-   "op1": "Chibi-Robo, Star Fox e Kirby",
-   "op2": "Pokémon, Golden Sun e Fire Emblem",
-   "op3": "The Legend of Zelda, Metroid e Kid Icarus",
-   "opc": 3
- },
- {
-   "pergunta": "Em Hyrule Warriors Legends, qual é o nome da personagem que é considerada a versão feminina de Link e que pensa ser a reencarnação do Herói da Lenda?",
-   "op1": "Zelda",
-   "op2": "Linkle",
-   "op3": "Linkya",
-   "opc": 2
- },
- {
-   "pergunta": "Qual a produtora do jogo Minecraft?",
-   "op1": "4J Studios",
-   "op2": "Mojang",
-   "op3": "2k",
-   "opc": 2
- },
- {
-   "pergunta": "No jogo Mortal Kombat quando você aplica um \"uppercut\" no inimigo aparece uma pessoa no canto inferior direito. Qual seu nome?",
-   "op1": "Chris Sawyer",
-   "op2": "Dan Forden",
-   "op3": "John Tobias",
-   "opc": 2
- },
- {
-   "pergunta": "Quantas missões há no GTA V? (para Xbox One e PS4)",
-   "op1": "92",
-   "op2": "82",
-   "op3": "72",
-   "opc": 3
- },
- {
-   "pergunta": "Qual foi o primeiro jogo 3D de TERROR da história?",
-   "op1": "Alone in the Dark",
-   "op2": "Resident Evil",
-   "op3": "Silent Hill",
-   "opc": 1
- }
+  {
+    "pergunta": "Qual o maior desejo de Gohan em Dragon Ball Z?",
+    "op1": "Ser um grande lutador, como seu pai",
+    "op2": "Ser um historiador de sucesso",
+    "op3": "Ser rico e construir uma família",
+    "opc": 2,
+    "dificuldade": 2
+  },
+  {
+    "pergunta": "Qual o Berserker enfrentado por Artoria Pendragon em Fate/Zero?",
+    "op1": "Lancelot",
+    "op2": "Hércules",
+    "op3": "Spartacus",
+    "opc": 1,
+    "dificuldade": 2
+  },
+  {
+    "pergunta": "Em The King of Fighters, qual o clã que mudou de nome para caçar os Kusanagi?",
+    "op1": "Yata",
+    "op2": "Yasakani",
+    "op3": "Sakazaki",
+    "opc": 2,
+    "dificuldade": 2
+  },
+  {
+    "pergunta": "Em Bleach, Ichigo Kurosaki apenas virou Ceifeiro de Almas por causa que ele sem querer Roubou os poderes de...",
+    "op1": "Renji",
+    "op2": "Rukia",
+    "op3": "Capitão Toshiro",
+    "opc": 2,
+    "dificuldade": 2
+  },
+  {
+    "pergunta": "Qual espírito de Bijuu habita dentro do corpo de Naruto?",
+    "op1": "Hachibi",
+    "op2": "Shukaku",
+    "op3": "Kyuubi",
+    "opc": 3,
+    "dificuldade": 3
+  },
+  {
+    "pergunta": "São personagens de Yu-Yu Hakusho...",
+    "op1": "Yusuke, Kazuma e Kurama",
+    "op2": "Chi-chi, Chaos e Janemba",
+    "op3": "Ichigo, Rukia e Uryu",
+    "opc": 1,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Kempachi Zaraki é o capitão de que Divisão de guarda da corte em Bleach?",
+    "op1": "Divisão 9",
+    "op2": "Divisão 10",
+    "op3": "Divisão 11",
+    "opc": 3,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Em Death Note, Light após perceber que o Detetive L o investigava, tentou descobrir sua verdadeira identidade para...",
+    "op1": "Sequestrá-lo",
+    "op2": "Prendê-lo",
+    "op3": "Matá-lo",
+    "opc": 3,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Qual a relação entre Misa Amane e Light, em Death Note?",
+    "op1": "Irmãos",
+    "op2": "Namorados",
+    "op3": "Mãe e filho",
+    "opc": 2,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Quem é o criador de Naruto?",
+    "op1": "Tsugumi Ohba",
+    "op2": "Akira Toriyama",
+    "op3": "Massashi Kishimoto",
+    "opc": 3,
+    "dificuldade": 3
+  },
+  {
+    "pergunta": "Qual a posição de Endo, em Super Onze?",
+    "op1": "Goleiro",
+    "op2": "Meio campo",
+    "op3": "Atacante",
+    "opc": 1,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Qual o nome do avô de Endo, em Super Onze?",
+    "op1": "Tobi",
+    "op2": "Daisuke",
+    "op3": "Hashirama",
+    "opc": 2,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Qual a relação entre Kirigaya e Asuna, em Sword Art Online?",
+    "op1": "Primos",
+    "op2": "Irmãos",
+    "op3": "Namorados",
+    "opc": 3,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Qual o nome da 'Filha Virtual' de Kirito e Asuna, em Sword Art Online?",
+    "op1": "Rin",
+    "op2": "Boruto",
+    "op3": "Yui",
+    "opc": 3,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Quem derrotou o Devimon em Digimon?",
+    "op1": "Angemon",
+    "op2": "Leomon",
+    "op3": "Greymon",
+    "opc": 1,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Qual é a evolução Ultimate do Ankylomon, em Digimon?",
+    "op1": "Vikemon",
+    "op2": "Clavis Angemon",
+    "op3": "Slash Angemon",
+    "opc": 1,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Qual é o comandante/criador da Dats, em Digimon?",
+    "op1": "Satsuma",
+    "op2": "Kurata",
+    "op3": "Hiroshi",
+    "opc": 3,
+    "dificuldade": 3
+  },
+  {
+    "pergunta": "Por que em Digimon Xros Wars não existe evolução?",
+    "op1": "Não foi explicado no anime",
+    "op2": "Porque Baguramon mudou a realidade do mundo digital",
+    "op3": "Porque é um universo alternativo de Digimon",
+    "opc": 2,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Em que ano os jogos Super Smash Bros for Wii U/3DS foram lançados?",
+    "op1": "2013",
+    "op2": "2014",
+    "op3": "2015",
+    "opc": 2,
+    "dificuldade": 3
+  },
+  {
+    "pergunta": "Qual é o nome do novo presidente da Nintendo?",
+    "op1": "Tsunami Kalashima",
+    "op2": "Satoru Iwata",
+    "op3": "Tatsumi Kimishima",
+    "opc": 3,
+    "dificuldade": 3
+  },
+  {
+    "pergunta": "No jogo Kid Icarus Uprising, a personagem Medusa, Deusa do Submundo foi revivida por quem?",
+    "op1": "Plutena",
+    "op2": "Viridi",
+    "op3": "Hades",
+    "opc": 3,
+    "dificuldade": 2
+  },
+  {
+    "pergunta": "No jogo Fire Emblem: Awakening, qual é o nome do(a) filho(a) de Robin?",
+    "op1": "Lucina",
+    "op2": "Morgan",
+    "op3": "Lyana",
+    "opc": 2,
+    "dificuldade": 2
+  },
+  {
+    "pergunta": "No novo jogo da série Mario e Sonic nas Olimpíadas, quantos personagens o jogo possui?",
+    "op1": "20",
+    "op2": "40",
+    "op3": "80",
+    "opc": 2,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "Quais franquias da Nintendo completaram 30 anos em 2016?",
+    "op1": "Chibi-Robo, Star Fox e Kirby",
+    "op2": "Pokémon, Golden Sun e Fire Emblem",
+    "op3": "The Legend of Zelda, Metroid e Kid Icarus",
+    "opc": 3,
+    "dificuldade": 2
+  },
+  {
+    "pergunta": "Em Hyrule Warriors Legends, qual é o nome da personagem que é considerada a versão feminina de Link e que pensa ser a reencarnação do Herói da Lenda?",
+    "op1": "Zelda",
+    "op2": "Linkle",
+    "op3": "Linkya",
+    "opc": 2,
+    "dificuldade": 2
+  },
+  {
+    "pergunta": "Qual a produtora do jogo Minecraft?",
+    "op1": "4J Studios",
+    "op2": "Mojang",
+    "op3": "2k",
+    "opc": 2,
+    "dificuldade": 1
+  },
+  {
+    "pergunta": "No jogo Mortal Kombat quando você aplica um 'uppercut' no inimigo aparece uma pessoa no canto inferior direito. Qual seu nome?",
+    "op1": "Chris Sawyer",
+    "op2": "Dan Forden",
+    "op3": "John Tobias",
+    "opc": 2,
+    "dificuldade": 3
+  },
+  {
+    "pergunta": "Quantas missões há no GTA V? (para Xbox One e PS4)",
+    "op1": "92",
+    "op2": "82",
+    "op3": "72",
+    "opc": 3,
+    "dificuldade": 2
+  },
+  {
+    "pergunta": "Qual foi o primeiro jogo 3D de TERROR da história?",
+    "op1": "Alone in the Dark",
+    "op2": "Resident Evil",
+    "op3": "Silent Hill",
+    "opc": 1,
+    "dificuldade": 1
+  }
 ]

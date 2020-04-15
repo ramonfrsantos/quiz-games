@@ -6,9 +6,9 @@ var app = new Vue({
     indice: Math.floor(Math.random() * 29),
     indices: [],
     indiceResposta: 0,
-    tempo: 15,
-    tempoResposta: 0,
-    tempoTotal: 0,
+    totalEstrelas: 0,
+    tempo: 0,
+    tempoBase: 0,
     vidas: 5,
     recorde: 0,
   },
@@ -29,16 +29,19 @@ var app = new Vue({
         this.vidas = this.vidas - 1;
       }
       this.trocarIndice();
-      this.tempo = 15;
+      this.totalEstrelas += this.estrelas; 
+    },
+    pularPergunta: function () {
+      this.trocarIndice();
     },
     jogarNovamente: function () {
       this.indiceResposta = 0;
       this.indice = Math.floor(Math.random() * 29);
       this.vidas = 5;
       this.indices = [];
-      this.tempo = 15;
     },
     timer: function () {
+      // usar clearInterval ao inves do if
       setInterval(() => {
         if (this.tempo > 0) {
           return (this.tempo = this.tempo - 1);
@@ -57,8 +60,47 @@ var app = new Vue({
     },
   },
   computed: {
+    estrelas: function () {
+      let estrelas = 0;
+      if (this.tempo/this.tempoBase >= 0.66) {
+        estrelas = 3;
+      } else if (this.tempo/this.tempoBase >= 0.33) {
+        estrelas = 2;
+      } else if (this.tempo/this.tempoBase > 0) {
+        estrelas = 1;
+      }
+      return estrelas;
+    },
     pergunta: function () {
-      return this.perguntas[this.indice];
+      let pergunta = {
+        "pergunta":"Carregando perguntas, por favor aguarde!",
+        "op1": "Carregando",
+        "op2": "Carregando",
+        "op3": "Carregando",
+        "opc": 0,
+      };
+
+      this.perguntas.length > 0 && [pergunta = this.perguntas[this.indice]] 
+      switch (pergunta['dificuldade']) {
+        case 1:
+          this.tempo = 10;
+          this.tempoBase = 10;
+          break;
+        case 2:
+          this.tempo = 15;
+          this.tempoBase = 15;
+          break;
+        case 3:
+          this.tempo = 20;
+          this.tempoBase = 20;
+          break;
+        default:
+          this.tempo = 15;
+          this.tempoBase = 15;
+        break;
+      }
+
+      return pergunta;
     },
     nivel: function () {
       let nivel = ((this.indices.length / 29) * 100).toFixed(2);
@@ -85,3 +127,4 @@ var app = new Vue({
     },
   },
 });
+Vue.config.productionTip = false;
