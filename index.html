@@ -15,9 +15,11 @@
 <body>
   <div id="app">
       <div class="icon-list iconesHeader">
-        <i class="nes-mario"></i>
-        <h1 id="titulo">QUIZ GAMES</h1>        
+        <i class="nes-mario"></i>        
         <i class="nes-charmander"></i>
+    </div>
+    <div class="titulo">
+      <h1>QUIZ GAMES</h1>
     </div>
     <div class="header">
       <div class="info">
@@ -72,7 +74,7 @@
       <div class="menu">
         <button @click="enviarResposta()" type="button" class="nes-btn is-success"
           v-show="indiceResposta > 0, tempo > 0">
-          >
+          RESPONDER
         </button>
         <button @click="pularPergunta()" type="button" class="nes-btn is-warning"
           v-show="indiceResposta > 0, tempo === 0">
@@ -80,11 +82,19 @@
         </button>
       </div>
     </div>
-    <div v-show="vidas === 0" class="gameover">
-      <h1 class="nes-text is-error">Você perdeu!</h1>
-      <p>Sua pontuação: {{totalEstrelas}} </p>
-      <p>Seu nível: {{indices.length}}</p>
-      <p>Seu recorde: {{recorde}} </p>
+    <div v-show="vidas === 0" class="gameover icon-list">
+      <h1 class="nes-text is-error"><br>Você perdeu!</h1><br>
+      <div class="recompensa">
+        <br>
+        <p>
+          SUAS ESTRELAS:<br>
+          <i v-for="estrela in totalEstrelas" class="nes-icon marge is-small star"></i>
+          {{totalEstrelas}}
+                    
+          <br><br>
+          SEU RECORDE: LEVEL {{recorde}} </p>
+        <br><br>
+      </div>
       <button @click="jogarNovamente()" class="nes-btn is-primary">JOGAR NOVAMENTE</button>
     </div>
   </div>

@@ -18,7 +18,7 @@ var app = new Vue({
       // verificar se ainda ha perguntas, se nao mostrar tela final
     },
     trocarIndice: function () {
-      while (this.indices.includes(this.indice)) {
+      while (this.indices.includes(this.indice)) { // corrigir primeira pergunta
         this.indice = Math.floor(Math.random() * 29);
       }
       this.salvaIndice(this.indice);
